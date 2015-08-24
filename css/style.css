@@ -42,8 +42,42 @@ body {
 .singIn input {
     height: 30px;   
 }
-.conteiner {
-    position: absolute;
+.cont {
+    position: fixed;
     width: 100%;
     height: 100%;
+}
+.menu {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.77);
+    float: left;
+}
+.cardUser {
+    position: relative;
+    width: 90%;
+    height: 250px;
+    left: 50%;
+    margin-left: -45%;
+    background-color: rgba(34, 28, 25, 0.47);
+    border-radius: 4px;
+}
+.myphoto {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+.cardUser h4 {
+    color: aliceblue;
+}
+.cardUser h5 {
+    color: aliceblue;
+}
+.list {
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.77);
 }
