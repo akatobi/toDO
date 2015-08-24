@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    position: fixed;
+}
+.bg {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/city_street_2_desktop_background_wallpaper.jpg);
+    background-size: cover;
+    z-index: -1;
+    -webkit-filter: blur(5px);
+}
+.logo {
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    margin: -300px 0px 0px -250px;
+    color: aliceblue;
+}
+.logo img{ 
+    width: 500px;
+    height: 500px;
+}
+.singIn {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.59);
+    border-radius: 4px;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0px 0px -250px;
+}
+.singIn h2 {
+    color: #3b3b3b;
+}
+.singIn input {
+    height: 30px;   
+}
+.conteiner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
